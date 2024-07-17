@@ -1,0 +1,37 @@
+// Activity 4: Logical Operators
+
+// Task 11: Program that uses the && operator to combine two conditions and log the results
+
+let a = 10;
+let b = 12;
+
+// The logical AND (&&) (logical conjunction) operator for a set of boolean operands will be true if and only if all the operands are true. Otherwise it will be false.
+
+console.log(a >= 10 && b>= b); // Gives true as both conditions is true
+
+console.log(a < b && a === b); // Gives false as first condition is true and second is false 
+
+
+
+// Task 12: Program that uses the || (OR) operator to combine two conditions and log the results
+
+let p = 15;
+let q = 20;
+
+// The logical OR (||) (logical disjunction) operator for a set of operands is true if and only if one or more of its operands is true. It is typically used with boolean (logical) values. When it is, it returns a Boolean value. However, the || operator actually returns the value of one of the specified operands, so if this operator is used with non-Boolean values, it will return a non-Boolean value.
+
+console.log(p >= 10 || q>= 10); // Gives true as both conditions is true
+
+console.log(p < q || p === q); // Gives true as first condition is true and second is false and in OR operator one condition must be true
+
+
+// Task 13: ! (NOT) Operator - It reverses the output (True -> False) and (False -> True)
+
+let x = 5;
+let y = 10;
+
+console.log(x<y); // Gives true
+
+// Using ! Operator
+console.log(!(x<y)); // Gives False
+
